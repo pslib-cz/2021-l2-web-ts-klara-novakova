@@ -1,0 +1,162 @@
+/* font-family: 'Major Mono Display', monospace;
+font-family: 'Abhaya Libre', serif;
+
+*/
+
+.header__title {
+    background-color: #97ABBF ;
+    margin: 0;
+    font-family: 'Major Mono Display', monospace;
+    text-transform: lowercase;
+    font-size: 32px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__nav {
+    background-color: black;
+    font-family: 'Major Mono Display', monospace;
+    text-transform: uppercase;
+    
+}
+.header__ul{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    list-style: none;
+    padding-right: 20px;
+}
+.header__jedna-scena{
+   display: flex;
+   flex-direction: column;
+}
+
+.header__ul a{
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+.header__ul a:visited {
+    color: white;
+}
+.section__text{
+    max-width: 550px;
+}
+.section__heading {
+    font-size: 24px;
+    font-family: 'Major Mono Display', monospace;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+}
+.section__heading--start{
+    text-align: start;
+    margin-left: 20px;
+}
+.section__heading--green {
+    font-family: 'Abhaya Libre', serif;
+    text-align: start;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.section__heading--green-small {
+    font-size: 16px;
+    margin: 0;
+    margin-left: 20px;
+    padding-top: 0;
+}
+.section--green {
+    background-color: #97A97C;
+    color: white;
+}
+.section__text{
+    margin: 20px;
+}
+#my-gallery3{
+    background-color: #D3D3D1;
+   display: flex;
+   flex-direction: row;
+   overflow: auto;
+    white-space: nowrap;
+    padding: 20px;
+    
+}
+#my-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.my-gallery2__cast{
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.my-gallery2__cast--oranzova{
+    background-color: #CD7D34 ;
+    padding-bottom: 20px;
+}
+.my-gallery2__cast--modra{
+    background-color: #3F5D7D;
+    padding-top: 20px;
+}
+.my-gallery2__cast--bila{
+    margin-top: -40px;
+    margin-bottom: -40px;
+    z-index: 1;
+}
+.fotka--galerie{
+    margin: 0;
+    margin-bottom: 4vw;
+}
+#my-gallery4{
+   display: flex;
+   justify-content: center;
+}
+.fotka__popisek--jedna-scena{
+    background-color:#3F5D7D;
+    color: #D3D3D1;
+    position: absolute;
+    top: 25px;
+    padding: 10px;
+    padding-right: 50px;
+}
+.fotka--jedna-scena{
+    position: relative;
+    margin: 10px;
+    
+}
+.heading__zanrove-fotky{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 50px;
+    font-family: 'Major Mono Display', monospace;
+    text-transform: lowercase;
+    flex-grow: 1;
+    font-size: 16px;
+}
+.heading__zanrove-fotky--bila{
+    writing-mode: vertical-lr;
+}
+.fotka__caption{
+    position: absolute;
+    bottom:20px;
+    right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.fotka__caption--bila{
+    color: #D3D3D1;
+}
+.fotka--zanrove-fotky{
+    position: relative;
+    margin-left: 0;
+    margin-right: 20px;
+}
+.fotka--bila{
+    margin-left: 20px;
+    margin-right: 0;
+}

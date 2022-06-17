@@ -1,0 +1,58 @@
+@media only screen and (min-width: 1070px){
+
+.header__ul{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+}
+
+.fotka--best-of img{
+    max-width: 570px;
+}
+.section--green .section__text{
+    max-width: 300px;
+}
+@media only screen and (min-width: 600px){
+    .header__title{
+        font-size: 64px;
+    }
+ .heading__zanrove-fotky{
+     font-size: 36px;
+ }
+ .fotka__caption{
+     font-size: 32px;
+ }
+ .section__heading{
+     font-size: 32px;
+ }
+}  
+@media only screen and (min-width: 900px){
+    .section--green{
+        display: flex;
+       justify-content: space-between; 
+    }
+
+}
+@media only screen and (min-width: 1268px){
+    #my-gallery2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .my-gallery2__cast{
+        margin: 20px;
+        padding: 0;
+    }
+    .my-gallery2__cast--bila{
+        order: 1;
+    }
+}
+@media only screen and (min-width: 1792px){
+    #my-gallery3{
+        justify-content: center;
+    }
+}
+
+
