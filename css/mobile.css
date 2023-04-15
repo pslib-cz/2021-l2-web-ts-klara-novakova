@@ -14,6 +14,7 @@ font-family: 'Abhaya Libre', serif;
     flex-direction: column;
 }
 
+
 .header__nav {
     background-color: black;
     font-family: 'Major Mono Display', monospace;
@@ -41,6 +42,7 @@ font-family: 'Abhaya Libre', serif;
 .header__ul a:visited {
     color: white;
 }
+
 .section__text{
     max-width: 550px;
 }
