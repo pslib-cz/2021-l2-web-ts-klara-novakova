@@ -1,9 +1,10 @@
-@media only screen and (min-width: 1070px){
+@media only screen and (min-width: 1100px){
 
 .header__ul{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    padding-right: 0;
 }
 
 }
@@ -33,7 +34,9 @@
         display: flex;
        justify-content: space-between; 
     }
-
+    .fotka--best-of{
+        margin: 0;
+    }
 }
 @media only screen and (min-width: 1268px){
     #my-gallery2{
@@ -54,5 +57,18 @@
         justify-content: center;
     }
 }
-
-
+@media only screen and (min-width: 1440px){
+    .header__ul{
+        padding: 0;
+    }
+    .header__title{
+        align-items: center;
+    }
+   .header__title span{
+        width: 1440PX;   
+   }
+   .section--uzsi{
+    max-width: 1440px;
+    margin: 0 auto;
+   }
+}

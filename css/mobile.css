@@ -112,10 +112,20 @@ font-family: 'Abhaya Libre', serif;
 }
 .fotka--galerie{
     margin: 0;
-    margin-bottom: 4vw;
+    margin-bottom: 4%;
+}
+.fotka--galerie img{
+    max-width: 407px;
+}
+.fotka--best-of{
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.fotka--best-of > img{
+    max-width: 570px;
 }
 #my-gallery4{
-   display: flex;
+    display: flex;
    justify-content: center;
 }
 .fotka__popisek--jedna-scena{
